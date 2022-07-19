@@ -14,3 +14,4 @@ export const NavBar = () => {
     else {
         return <CustomerNavBar/>
     }  
+}

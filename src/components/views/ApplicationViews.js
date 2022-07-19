@@ -13,3 +13,4 @@ export const ApplicationViews = () => {
     else {
         return <CustomerViews/>
     }
+}
