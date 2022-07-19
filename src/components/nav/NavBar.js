@@ -1,4 +1,3 @@
-import { Link, useNavigate } from "react-router-dom"
 import { CustomerNavBar } from "./CustomerNavBar"
 import { EmployeeNavBar } from "./EmployeeNavBar"
 import "./NavBar.css"
@@ -15,5 +14,3 @@ export const NavBar = () => {
     else {
         return <CustomerNavBar/>
     }  
-}
-
