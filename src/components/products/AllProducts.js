@@ -44,7 +44,7 @@ return (
 
     <button onClick={() => updateExpensive(true)}>Expensive Only</button>  
     <button onClick={() => updateExpensive(false)}>Show All</button>
-    <button onClick={() => navigate("/products/create")}>Create Ticket</button>
+    <button onClick={() => navigate("/products/create")}>Create Kandy</button>
 
     <article className="products">
     {filteredProducts.map(
